@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <!-- Making sure the web-site will scale fine on mobiles-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Trying to force IE to perform at its best-->
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <!-- Meta description, aim for about 150 characters-->
+        <meta name="description" content="This theme is a very beautiful and minimalistic theme with a gorgeous animation that will make the user remember your website and want to come back.">
+        <!-- Stylesheets-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:200,300,400,700">
+        <link rel="stylesheet" href="./libs/materialize/css/materialize.min.css">
+        <link rel="stylesheet" href="./libs/textillate/assets/animate.css">
+        <link rel="stylesheet" href="./assets/css/linea.min.css">
+        <link rel="stylesheet" href="./assets/css/nas.min.css?v=2">
+        <!-- Favicons-->
+        <link rel="icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" href="/favicons/favicon-32x32.png" sizes="32x32">
+        <link rel="icon" type="image/png" href="/favicons/favicon-16x16.png" sizes="16x16">
+        <link rel="manifest" href="/favicons/manifest.json">
+        <link rel="shortcut icon" href="favicon.ico">
+        <meta name="msapplication-config" content="/favicons/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <!-- Site title-->
+        <title>10°Equidad</title>
+    </head>
+    <body>
+        <div class="loading-overlay" id="loading-overlay"></div>
+        <!-- Pace loader-->
+        <div class="pace" id="pace">
+            <div class="pace-activity"></div>
+        </div>
+        <!-- Navigation-->
+        <div class="navbar-fixed zero-height">
+            <nav>
+                <div class="nav-wrapper">
+                    <div class="row">
+                        <div class="col s12 l6">
+                            <div class="brand-logo">10° Equidad</div>
+                        </div>
+                        <div class="text-align">
+                            <ul class="hide-on-med-and-down table-of-contents">
+                                <li>
+                                    <a href="#cases">Marco terico</a>
+                                </li>
+                                <li>
+                                    <a href="#services">Tabla dinámica</a>
+                                </li>
+                               <li>
+                                    <a href="#audiovisual">Audiovisual</a>
+                                </li>
+                                <li>
+                                    <a href="#contact">Parque SUMMIT</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <!-- Main content-->
+        <main class="main" id="main">
+            <div class="hero cyan darken-3 overflow-hidden">
+                <canvas id="canvas"></canvas>
+                <h1><em><strong>"Seguimiento de la Flora en el parque SUMMIT"</h1></em></strong>
+            </div>
+
+            <section class="section scrollspy">
+                <div class="container">
+                    <div class="row">
+                        <div class="col s12 l6">
+                            <image class="Aves urbanas" src="./assets/images/SUMMIT.jpg" width="350" height="200">
+                        </div>
+
+                        <div class="text-align">
+                            <p><h3>El Parque Summit al principio, fue creado para estudiar cómo se adaptan especies de otros países mientras construían el Canal, pero ahora es un lugar para relajarse, aprender a cuidar animales y plantas, algunas en peligro de extinción. El Parque Municipal Summit es un espacio enriquecido por una gran diversidad de especies de plantas y animales.</p></h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section scrollspy" id="cases">
+                <div class="container">
+                    <div class="row">
+                        
+                    </div>
+                </div>
+                <div class="container blocks spacious full-width no-margin">
+                    <div class="row">
+                       <div class="col s12 m6 l4">
+                      <a class="block rectangle modal-trigger" href="#wooden-collection" style="background-image: url(./assets/images/viajero.jpg); background-size: contain; width: 500px; height: 200px;">
+                      <div class="content">
+                      <div class="title tlt">Objetivos</div>
+                      </div>
+                      </a>
+                      </div>
+                        <div class="col s12 m6 l4">
+                             <a class="block rectangle modal-trigger" href="#the-gadgets" style="background-image: url(./assets/images/real.jpg); background-size: contain; width: 500px; height: 200px;">
+                             <div class="content">
+                             <div class="title tlt">Biología</div>
+                             </div>
+                             </a>
+                        </div>
+                        <div class="col s12 m6 l4">
+                            <a class="block rectangle modal-trigger" href="#bottles" style="background-image: url(./assets/images/caucho.jpg); background-size: contain; width: 500px; height: 200px;">
+                             <div class="content">
+                             <div class="title tlt">Física</div>
+                             </div>
+                             </a>
+                        </div>
+                        <div class="col s12 m6 l4">
+                            <a class="block rectangle modal-trigger" href="#quimica" style="background-image: url(./assets/images/Guarumo.jpg); background-size: contain; width: 500px; height: 200px;">
+                             <div class="content">
+                             <div class="title tlt">Química</div>
+                             </div>
+                             </a>
+                        </div>
+                        <div class="col s12 m6 l4">
+                             <a class="block rectangle modal-trigger" href="#matematicas" style="background-image: url(./assets/images/vela.jpg); background-size: contain; width: 500px; height: 200px;">
+                             <div class="content">
+                             <div class="title tlt">Matemáticas</div>
+                             </div>
+                             </a>
+                        </div>
+                        <div class="col s12 m6 l4">
+                            <a class="block rectangle modal-trigger" href="#metodologia" style="background-image: url(./assets/images/ceiba.jpg); background-size: contain; width: 500px; height: 200px;">
+                             <div class="content">
+                             <div class="title tlt">Metodología</div>
+                             </div>
+                             </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Wooden collection modal-->
+                <div class="modal bottom-sheet" id="wooden-collection">
+                    <div class="modal-close absolute">&times;</div>
+                    <div class="modal-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col s12 m10 offset-m1 l6 offset-l3 flow-text">
+                                   <strong><h1>Objetivos</h1></strong>
+                                    <p>El objetivo general de este proyecto es aprender más sobre las diferentes especies de árboles que existen, así como saber más sobre las características de cada una de ellos. En este proyecto también analizamos la salud de los árboles en el parque.</p>
+									<div class="col s12 l10 offset-l1">
+                                    <blockquote><span class="quote"></span>_________________</blockquote>
+                                </div>
+                                    <p>Un objetivo específico de nuestro proyecto  sería como el clima puede afectar a los árboles, analizaremos variables climáticas como la humedad, la temperatura, el viento y la intensidad de la luz. Estas condiciones climáticas son esenciales para el crecimiento y desarrollo de los árboles.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 spacious-images">
+                               <img class="responsive-img small-img" src="./assets/images/objetivos.jpg" width="350" height="350">
+                                <div class="col s12 m10 offset-m1 l6 offset-l3 flow-text">
+                                 <p>Otro de nuestros objetivos sería comprobar si los árboles están sanos. Para ello hicimos observaciones del tronco y las hojas, de este modo encontramos si el árbol tiene enfermedades o plagas. La identificación temprana de alguna enfermedad es crucial para tomar medidas.</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="row flow-text modal-nav-container">
+                                <div class="col s12 l6 offset-l6">
+                                    <a class="right modal-nav" href="#the-gadgets" data-next-modal="the-gadgets">Next case &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- The gadgets modal-->
+                <div class="modal bottom-sheet" id="the-gadgets">
+                    <div class="modal-close absolute">&times;</div>
+                    <div class="modal-content">
+                        <div class="container">
+                            <div class="row flow-text">
+                                <div class="col s12 m10 offset-m1 l6 offset-l3">
+                                    <strong><h1>Biología</h1></strong>
+                                    <p class="flow-text">La forma, tamaño y disposición de las hojas es parte clave para poder identificar árboles. La forma puede ser acicular o lobulada, el tamaño  y como se distribuyen puede ser alterna u opuesta, estas nos dan pistas valiosas para poder así identificarlas.</p>
+                                </div>
+                                <div class="col s12 m10 offset-l1">
+                                    <blockquote><span class="quote"></span>____________________________________</blockquote>
+                                </div>
+                                <div class="col s12 m10 offset-m1 l6 offset-l3">
+                                    <strong><p>Árbol del viajero</p></strong>
+									<ul>
+									<li>Género: Ravenala</li>
+									<li>Familia: Strelitziaceae</li>
+									</ul>
+									<strong><p>Barrigón</p></strong>
+									<ul>
+									<li>Género: Pseudobombax</li>
+									<li>Familia: Malvaceae</li>
+									</ul>
+									<strong><p>Palma real</p></strong>
+									<ul>
+									<li>Género: Roystonea</li>
+									<li>Familia: Arecaceae</li>
+									</ul>
+									<strong><p>Árbol de vela</p></strong>
+									<ul>
+									<li>Género: Parmentiera</li>
+									<li>Familia: Bignoniaceae</li>
+									</ul>
+									<div class="col s12 m10 offset-l1">
+                                    <blockquote><span class="quote"></span>.............</blockquote>
+                                </div>
+									<a class="navbar-brand" href="https://docs.google.com/document/d/1yaW6tc7wmyYu5TNT1v36BfxpuNhIPbGCcKv5pVrvTFU/edit?usp=sharing">
+                            <strong><spam>Informe de los árboles</spam></strong></a>
+                                </div>
+                            </div>
+                            <div class="row">
+                                
+                            </div>
+                            <div class="row flow-text modal-nav-container">
+                                <div class="col s12 l6 margin-on-medium-and-down">
+                                    <a class="modal-nav" href="#wooden-collection" data-previous-modal="wooden-collection">&larr; Previous case</a>
+                                </div>
+                                <div class="col s12 l6">
+                                    <a class="right modal-nav" href="#bottles" data-next-modal="bottles">Next case &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Bottles modal-->
+               <div class="modal bottom-sheet" id="bottles">
+                    <div class="modal-close absolute">&times;</div>
+                    <div class="modal-content">
+                        <div class="container">
+                            <div class="row flow-text">
+                                <div class="col s12 m10 offset-m1 l6 offset-l3">
+                                    <strong><h1>Física</h1></strong>
+                                    <strong><p>La velocidad del viento: 5 a 8 km/h</p></strong>
+									<p>La velocidad del viento puede afectar a la hora de polinización de los árboles y la dispersión de semillas. Vientos fuertes pueden llegar a causar daños a las ramas y hojas, afectando en el crecimiento del árbol.</p>
+									<strong><p>Intensidad de la luz: 6 a 9 UV</p></strong>
+									<p>La intensidad de la luz es importante para la fotosíntesis. Una buena iluminación permite que el árbol crezca saludable, mientras que una iluminación baja puede limitar su desarrollo.</p>
+									<strong><p>Temperatura: 27 a 28° C</p></strong>
+									<p>Ya que cada especie de árbol tiene un rango óptimo para desarrollarse, la temperatura influye en su crecimiento. Temperaturas dentro de ese rango pueden favorecer su crecimiento, pero temperaturas extremas pueden afectar su salud.</p>
+									<strong><p>Humedad: 85%</p></strong>
+									<p>La humedad es fundamental en la transpiración, proceso cuál los árboles pierden agua y absorben nutrientes. Un 85% de humedad es ideal para muchas especies, ya que promueve un ambiente saludable y promueve la deshidratación.</p>
+                                </div>
+                            </div>
+                            <div class="row flow-text modal-nav-container">
+                                <div class="col s12 l6 margin-on-medium-and-down">
+                                    <a class="modal-nav" href="#the-gadgets" data-previous-modal="the-gadgets">&larr; Previous case</a>
+                                </div>
+                                <div class="col s12 l6">
+                                    <a class="right modal-nav" href="#quimica" data-next-modal="quimica">Next case &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- quimica modal-->
+               <div class="modal bottom-sheet" id="quimica">
+                    <div class="modal-close absolute">&times;</div>
+                    <div class="modal-content">
+                        <div class="container">
+                            <div class="row flow-text">
+                                <div class="col s12 m10 offset-m1 l6 offset-l3">
+                                    <strong><h1>Química</h1></strong>
+                                    <strong><p>pH</p></strong>
+									<p>El pH del suelo es de 6.7 y el tipo de pH es ácido</p>
+                                </div>
+                                <div class="col s12 l10 offset-l1">
+                                    <blockquote><span class="quote"></span>_______________________________________</blockquote>
+                                </div>
+                                <div class="col s14 m12 offset-m1 l8 offset-l4">
+                                    <strong><p>pH</p></strong>
+									<ul>
+									<li>1. Bejuco de ajo (Petrea volubilis) - 1.00 g</li>
+									<li>2. Clavelillo (Emilia fosbergii) - 0.57 g</li>
+									<li>3. Itamo real (Euphorbia tithymoloides) - 1.08 g</li>
+									<li>4. Caña de la india (Canna indica) - 1.29 g</li>
+									<li>5. Espinaca blanca (Basella alba) - 1.49 g</li>
+									<li>6. Romerillo (Tridax procumbers) - 0.10 g</li>
+									<li>7. Laurel (Laurus nobilis) - 0.30 g</li>
+									<li>8. Acalifa (Acalypha wilkesiana) - 0.50 g</li>
+									<li>9. Bandera roja (Mussaenda erythrophilla) - 0.15 g</li>
+									<li>10. Nogal (Juglans regia) - 1.50 g</li>
+									</ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 spacious-images">
+                                    
+                                    <img class="responsive-img" src="./assets/images/peso.jpg">
+                                </div>
+                            </div>
+                            <div class="row flow-text modal-nav-container">
+                                <div class="col s12 l6 margin-on-medium-and-down">
+                                    <a class="modal-nav" href="#the-gadgets" data-previous-modal="bottles">&larr; Previous case</a>
+                                </div>
+                                <div class="col s12 l6">
+                                    <a class="right modal-nav" href="#matematicas" data-next-modal="matematicas">Next case &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- matematicas modal-->
+               <div class="modal bottom-sheet" id="matematicas">
+                    <div class="modal-close absolute">&times;</div>
+                    <div class="modal-content">
+                        <div class="container">
+                            <div class="row flow-text">
+                                <div class="col s12 m10 offset-m1 l6 offset-l3">
+                                    <strong><h1>Matemáticas</h1></strong>
+								</div>
+								<div class="col s12 m10 offset-m1 l6 offset-l3">
+                                    <strong><p>Construir una tabla de frecuencias</p></strong>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 spacious-images">
+                                    <img class="responsive-img" src="./assets/images/frecuencia.jpg" alt="Phone">
+
+                                    <img class="responsive-img" src="./assets/images/tendencia.jpg" alt="Radio">
+                                </div>
+								<div class="col s12 l6" style="display: flex; align-items: center;">
+                            <img class="Aves urbanas" src="./assets/images/frecuencia2.jpg" width="450" height="300" style="margin-right: 20px;">
+                            <img class="Aves urbanas" src="./assets/images/frecuencia.3.jpg" width="450" height="300" style="margin-right: 20px;">
+                            </video>
+                            </div>
+                            </div>
+                            <div class="row flow-text modal-nav-container">
+                                <div class="col s12 l6 margin-on-medium-and-down">
+                                    <a class="modal-nav" href="#quimica" data-previous-modal="quimica">&larr; Previous case</a>
+                                </div>
+                                <div class="col s12 l6">
+                                    <a class="right modal-nav" href="#metodologia" data-next-modal="metodologia">Next case &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+				<!-- metodologia modal-->
+               <div class="modal bottom-sheet" id="metodologia">
+                    <div class="modal-close absolute">&times;</div>
+                    <div class="modal-content">
+                        <div class="container">
+                            <div class="row flow-text">
+                                <div class="col s12 m10 offset-m1 l6 offset-l3">
+                                    <strong><h1>Metodología</h1></strong>
+                                    <p class="flow-text">El tipo de investigación de este proyecto es de campo. Salimos al parque SUMMIT para poder obtener la información sobre las especies de plantas, en este caso, nos tocó “plantas árboles”. En el campo pudimos observar las características de cada especie de árbol que encontramos y así hacer una investigación más profunda.</p>
+                                </div>
+                                 <div class="col s12 l10 offset-l1">
+                                    <blockquote><span class="quote"></span>___________________________________________</blockquote>
+                                </div>
+                                <div class="col s12 m10 offset-m1 l6 offset-l3">
+                                    <p>La investigación se puede decir que es tanto cualitativa como cuantitativa, ya que se combinó estos conceptos para sacar la información necesaria para saber más sobre los árboles. Usamos cualitativa en física y química para obtener la intensidad de la luz, la humedad del suelo, la velocidad del viento y el pH del suelo. En el ámbito matemático, recopilamos información sobre cuantas especies de árboles hay en Panamá.</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col s12 l6" style="display: flex; align-items: center;">
+                            <img class="Aves urbanas" src="./assets/images/picturethis.jpg" width="450" height="300" style="margin-right: 20px;">
+                            <img class="Aves urbanas" src="./assets/images/inaturalist.jpg" width="450" height="300" style="margin-right: 20px;">
+                              
+                            </video>
+                            </div>
+                            </div>
+                            <div class="row flow-text modal-nav-container">
+                                <div class="col s12 l6 margin-on-medium-and-down">
+                                    <a class="modal-nav" href="#matematicas" data-previous-modal="matematicas">&larr; Previous case</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="services-section section scrollspy" id="services">
+                <div class="container center">
+                    <div class="row">
+                        <div class="col s12">
+                            <h2>Tabla dinámica</h2>
+                          
+                        </div>
+                    </div>
+                  
+                            <a class="navbar-brand" href="https://1drv.ms/x/c/dbe0e8cb47124778/ETF3KGglClpPvlcCPoIqpQMB6xfT7XrrGqAgBrV_PQUe7w?e=Lwl4jA">
+                            <spam>Datos</spam></a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+			
+			 <section class="section scrollspy" id="audiovisual">
+			  <div class="container center">
+                    <div class="row">
+                        <div class="col s12">
+			                <h2>Audiovisual</h2>
+							<div class="col s12 l6" style="display: flex; align-items: center;">
+                            <img class="Aves urbanas" src="./assets/images/Storyboard.jpg" width="450" height="300" style="margin-right: 20px;">
+                            <video width="450" height="300" controls>
+                              <source src="assets/images/Publicidad del Parque Summit.mp4" type="video/mp4">
+                            </video>
+                            </div>
+			 </section>				
+
+            <section class="section scrollspy cyan" id="contact">
+                <div class="container">
+                    <div class="row center">
+                        <div class="col s12">
+                            <h2>Aspectos generales</h2>
+                            
+                            <ul class="posts">
+                                <li>
+                                    <a class="modal-trigger" href="#pink-sunglasses" data-slug="pink-sunglasses">Historia</a>
+                                </li>
+                                <li>
+                                    <a class="modal-trigger" href="#table-design" data-slug="table-design">Horario, Tarifas y Reglamentos</a>
+                                </li>
+                                
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="posts-covers">
+                    <div class="pink-sunglasses" style="background-image: url(./assets/images/lady/nombre.jpg)"></div>
+                    <div class="table-design" style="background-image: url(./assets/images/lady/tarifa.jpg)"></div>
+                    <div class="reglamentos" style="background-image: url(./assets/images/lady/reglamento.jpg)"></div>
+                  
+                </div>
+                <!-- Pink sunglasses-->
+                <div class="modal bottom-sheet" id="pink-sunglasses">
+                    <div class="modal-close absolute">&times;</div>
+                    <div class="modal-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flow-text">
+                                    <h1><strong>Historia del parque SUMMIT</h1></strong>
+                                   
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+							<div class="flow-text">
+                                    <h2>¿Por qué el nombre SUMMIT?</h2>
+                                </div>
+                                <div class="flow-text">
+                                    <p>El nombre de Summit hace referencia a una estación en el recorrido del ferrocarril en el punto geográfico más alto entre el Caribe y el Pacífico, conocido como la parada en el “Summit” que en inglés significa cumbre o cima.
+</p>
+                                </div>
+                            </div>
+                           
+                            <div class="row">
+							<div class="flow-text">
+                                    <h2>Historia</h2>
+                                </div>
+                                <div class="flow-text">
+                                    <p>El parque fue creado en 1923 como el Jardín de Introducción de Plantas de la Zona del Canal y su primer director fue el estadounidense David Fairchild de la oficina de Introducción de Plantas del Departamento de Agricultura de Estados Unidos.</p>
+                                </div>
+                            </div>
+							
+							 <div class="row">
+							<div class="flow-text">
+                                    <h2>Ubicación</h2>
+                                </div>
+                                <div class="flow-text">
+                                    <p>El Parque Summit se encuentra en la provincia de Panamá, específicamente en el corregimiento de Ancón. Está ubicado a unos 20 kilómetros al norte de la Ciudad de Panamá, en la Carretera Gaillard.
+</p>
+                                </div>
+                            </div>
+							
+                            <div class="row">
+                                <div class="col s12 spacious-images">
+                                    <img class="responsive-img" src="./assets/images/lady/ubicacion.jpg" alt="White dress">
+                                </div>
+                            </div>
+                            <div class="row flow-text modal-nav-container">
+                                <div class="col s12 l6 offset-l6">
+                                    <a class="right modal-nav" href="#table-design" data-next-modal="table-design">Next &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Table design-->
+                <div class="modal bottom-sheet" id="table-design">
+                    <div class="modal-close absolute">&times;</div>
+                    <div class="modal-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="flow-text">
+                                    <h1><strong>Horario, Tarifas y Reglamentos</h1></strong>
+                                   
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="flow-text">
+                                    <h2>Horario</h2>
+                                </div>
+                                <div class="flow-text">
+                                    <p>El Parque Summit en Panamá generalmente tiene los siguientes horarios:</p>
+									<ul>
+                                    <li>De lunes a viernes: de 9:00 a.m. a 4:00 p.m.</li>
+                                    <li>Fines de semana y feriados: de 9:00 a.m. a 5:00 p.m.</li>
+                                    </ul>
+                                </div>
+								
+								<div class="row">
+                                <div class="flow-text">
+                                    <h2>Tarifas</h2>
+                                </div>
+                                <div class="flow-text">
+                                 
+									<ul>
+                                    <li>Adultos (nacionales): $2.00</li>
+                                    <li>Niños (nacionales, entre 5 y 12 años): $1.00</li>
+                                    <li>Adultos mayores (jubilados nacionales): $1.00</li>
+                                    <li>Extranjeros (adultos): $5.00</li>
+                                    <li>Extranjeros (niños): $2.00</li>
+                                   <li> Niños menores de 5 años: entrada gratuita</li>
+                                    </ul>
+                                </div>
+								
+                            </div>
+                            <div class="row">
+                                <div class="text-align">
+                                    <img class="responsive-img" src="./assets/images/lady/tarifa1.jpg" alt="Lady on table">
+                                </div>
+                            </div>
+							
+							<div class="row">
+                                <div class="flow-text">
+                                    <h2>Reglamentos</h2>
+                                </div>
+                                <div class="flow-text">
+                                 
+									<ul>
+                                    <li>Horarios de visita: El parque tiene horarios establecidos de apertura y cierre que deben respetarse. Generalmente, abre de martes a domingo, de 9:00 a.m. a 4:00 p.m.</li>
+                                    <li>Prohibido alimentar a los animales: Está estrictamente prohibido dar comida a los animales. Esto es para proteger su salud y mantener un equilibrio en sus dietas.</li>
+                                    <li>No molestar a los animales: Los visitantes deben abstenerse de tocar, molestar o acosar a los animales, ya que esto puede generar estrés en ellos y es peligroso para los humanos.</li>
+                                    <li>Respetar las áreas designadas: Hay áreas designadas para caminar, descansar y disfrutar del parque. No está permitido salir de los senderos o invadir las áreas restringidas.</li>
+                                    <li>Basura y residuos: Los desechos deben ser depositados en los contenedores de basura adecuados para preservar la limpieza del parque.</li>
+                                    <li>Actividades prohibidas: No se permite el uso de bicicletas, patinetas o cualquier otro vehículo personal dentro del parque para evitar accidentes. Tampoco está permitido hacer fogatas o barbacoas.</li>
+                                    <li>Fotografía y filmación: En algunos casos, la fotografía y filmación pueden requerir permisos especiales, especialmente si son con fines comerciales.</li>
+
+                                    </ul>
+                                </div>
+								
+                            </div>
+							
+                            <div class="row flow-text modal-nav-container">
+                                <div class="col s12 l6 margin-on-medium-and-down">
+                                    <a class="modal-nav" href="#pink-sunglasses" data-previous-modal="pink-sunglasses">&larr; Previous</a>
+                                </div>
+                                <div class="col s12 l6">
+                                    <a class="right modal-nav" href="#no-men-no-cry" data-next-modal="reglamentos">Next &rarr;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              
+            </section>
+
+            
+        </main>
+        <!-- Footer-->
+
+        <footer>
+            <div class="container">
+                <div class="row">
+                   
+                        <ul>
+                            <li>
+                                <a class="underline">Jeremy Martínez</a>
+                            </li>
+                            <li>
+                                <a class="underline">Rachel Chan</a>
+                            </li>
+                            <li>
+                                <a class="underline">Allan Ortega</a>
+                            </li>
+                            <li>
+                                <a class="underline">Carlos Sugar</a>
+                            </li>
+                        </ul>
+                    </div>
+                  
+                </div>
+            </div>
+        </footer>
+        <!-- Libraries-->
+        <script src="./libs/jquery/jquery.min.js"></script>
+        <script src="./libs/materialize/js/materialize.min.js"></script>
+        <script src="./libs/textillate/jquery.textillate.js"></script>
+        <script src="./libs/textillate/assets/jquery.lettering.js"></script>
+        <script src="./libs/textillate/assets/jquery.fittext.js"></script>
+        <!-- Nas scripts-->
+        <script src="./assets/js/config.js"></script>
+        <script src="./assets/js/nas.js"></script>
+        <script src="./assets/js/hexes-iii.js"></script>
+    </body>
+</html>
